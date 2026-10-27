@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+release/
+*.asar
+
+# Local verification runs
+.e2e/
+.smoke/
+*.log
+
+# Local user data that must never be committed
+settings.json
+recovery.json
+
+# Editors and OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
